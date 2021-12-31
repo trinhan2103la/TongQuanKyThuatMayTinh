@@ -32,8 +32,7 @@ html {
     left: 0;
     width: 100%;
     height: 102px;
-    background-color: rgba(66, 23, 223, 0.39);
-    background: url('../img/Slider/worl.jpg') top center/ cover no-repeat;
+    background-color: rgba(66, 23, 223, 1);
     display: flex;
     list-style-type: none;
     position: fixed;
@@ -53,15 +52,16 @@ html {
 }
 
 .nav > li:hover > a {
-    color: wheat;
-    background-color: rgba(23, 66, 223, 0.9);
+    color: #000;
+    background-color: #fff ;
+    opacity: 0.6;
     display: inline-block;
 }
 
 /* SLIDER */
 
 #slider {
-    background: url('../img/Slider/ecc.jpg') top center / cover no-repeat ;
+    background: url('../img/Slider/worl.jpg') top center / cover no-repeat ;
     padding-top: 50%;
     position: relative;
     margin-top: 102px;
@@ -76,21 +76,22 @@ html {
    
 /* CONTACT */
 #contact {
-    background: url('../img/Slider/un.jpg') top center/ cover no-repeat;
+    
 
 }
 #contact .content-section {
     text-align: center;
     letter-spacing: 3px;
     font-weight: 100;
-    color: #fff;
+    color: #000 ;
+    margin-top: 30px;
 }
    
    /* Content heading */
 #contact .content-heading {
     margin-top: 20px;
     width: 100%;
-    color: whitesmoke;
+    color: #000 ;
 }
 #contact .content-text {
     margin-top: 10px ;
@@ -147,6 +148,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center; 
+    background: url('../img/Slider/ecc.jpg') top center/ cover no-repeat;
 }
 .content-member .member {
     width: 300px;
@@ -155,7 +157,7 @@ html {
     text-align: center;
     margin: 0 30px;
     overflow: hidden;
-    background-color: rgba(73, 51, 212, 0.4);
+    background-color: rgba(34, 14, 35, 1);
 }
 .member .card-img-1 {
     background: url('../img/avatar/anh.jpg') top center / cover no-repeat;
@@ -212,16 +214,14 @@ html {
    display: flex;
    justify-content: center;
    align-items: center;
-     /* background-color: rgba(66, 23, 223, 0.39); */
-     background: url('../img/Slider/worl.jpg') top center/ cover no-repeat;
+   background-color: rgba(66, 23, 223, 1);
 }
 .footer .footer-sub {
     font-size: 20px;
     color: #fff;
-
 }
 .footer .social-list  {
-    font-size: 35px;
+    font-size: 40px;
     margin: 15px 0;
     text-decoration: none;
 }
